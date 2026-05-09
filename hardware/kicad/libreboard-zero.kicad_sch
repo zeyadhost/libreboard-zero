@@ -1,0 +1,144 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "89f4172f-506d-4ee8-b803-018659d4434f")
+	(paper "A4")
+	(title_block
+		(title "LibreBoard Zero")
+		(date "2026-05-09")
+		(rev "v1.0")
+		(company "LibreBoard")
+		(comment 1 "Zeyad Bekhet (zbekhet)")
+		(comment 2 "https://github.com/zeyadhost/libreboard-zero")
+	)
+	(lib_symbols)
+	(text "UART0 debug, 3.3V only"
+		(exclude_from_sim no)
+		(at 40 90 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fedd6f8-3316-4cde-956f-e57919990a85")
+	)
+	(text "Power rails: 1.8V RTC, 3.3V IO, 1.8V DRAM, 1.0V SYS, 0.9V CORE"
+		(exclude_from_sim no)
+		(at 40 60 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ae05245-2698-4f97-8ca6-7a0a9b886b62")
+	)
+	(text "USB-C 5V input"
+		(exclude_from_sim no)
+		(at 40 40 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b866513-9723-4761-8654-87208e212d1b")
+	)
+	(text "microSD boot on SMHC0"
+		(exclude_from_sim no)
+		(at 40 80 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "534d2f09-fc2e-477b-8492-a3af518651f5")
+	)
+	(text "Future expansion header, unpopulated"
+		(exclude_from_sim no)
+		(at 40 110 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "88721a24-2e52-4660-99c3-007ff05eb257")
+	)
+	(text "Reset held low until rails are stable"
+		(exclude_from_sim no)
+		(at 40 70 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fd20ea9-d05e-468d-99c4-b3e5e0354d3e")
+	)
+	(text "Protection: fuse + TVS + bulk cap"
+		(exclude_from_sim no)
+		(at 40 50 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "91052fd5-dfb6-4e82-b8c1-b08d60836b3a")
+	)
+	(text "24MHz clock near SoC"
+		(exclude_from_sim no)
+		(at 40 100 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "96bb012e-dd09-4c87-88f1-fdf3eb1e8100")
+	)
+	(text "Test points: all rails + RESET_N + UART0 + SMHC0_CLK"
+		(exclude_from_sim no)
+		(at 40 120 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4866514-9723-4761-8654-87208e212d1c")
+	)
+	(text "Allwinner T113-S3\nLinux SoC\nbuilt-in 128MB DDR3\nplanning symbol only"
+		(exclude_from_sim no)
+		(at 100 80 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2512f45-dfb6-4e82-b8c1-b08d60836b3b")
+	)
+	(text "NOTE: Planning schematic only. Not for manufacturing."
+		(exclude_from_sim no)
+		(at 40 130 0)
+		(effects
+			(font
+				(size 2 2)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "991d97cb-ab89-452f-8b0c-34e891ec94bc")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
