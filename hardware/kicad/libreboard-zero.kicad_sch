@@ -13,7 +13,7 @@
 		(comment 2 "https://github.com/zeyadhost/libreboard-zero")
 	)
 	(lib_symbols)
-	(text "UART0 debug, 3.3V only"
+	(text "UART3 debug on PB6/PB7, 3.3V only"
 		(exclude_from_sim no)
 		(at 40 90 0)
 		(effects
@@ -24,7 +24,7 @@
 		)
 		(uuid "0fedd6f8-3316-4cde-956f-e57919990a85")
 	)
-	(text "Power rails: 1.8V RTC, 3.3V IO, 1.8V DRAM, 1.0V SYS, 0.9V CORE"
+	(text "Power rails: 1.8V RTC, 3.3V IO, 1.5V DRAM, 0.9V CORE, SYS TODO"
 		(exclude_from_sim no)
 		(at 40 60 0)
 		(effects
@@ -101,7 +101,7 @@
 		)
 		(uuid "96bb012e-dd09-4c87-88f1-fdf3eb1e8100")
 	)
-	(text "Test points: all rails + RESET_N + UART0 + SMHC0_CLK"
+	(text "Test points: rails + RESET_N + UART3 + SMHC0_CLK"
 		(exclude_from_sim no)
 		(at 40 120 0)
 		(effects
@@ -122,6 +122,17 @@
 			(justify left bottom)
 		)
 		(uuid "a2512f45-dfb6-4e82-b8c1-b08d60836b3b")
+	)
+	(text "Ref review: DRAM 1.5V candidate; UART3 PB6/PB7"
+		(exclude_from_sim no)
+		(at 40 125 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5d3ef01-d7f6-4c6b-bc94-807843bca139")
 	)
 	(text "NOTE: Planning schematic only. Not for manufacturing."
 		(exclude_from_sim no)
