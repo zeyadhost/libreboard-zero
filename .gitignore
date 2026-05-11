@@ -1,2 +1,18 @@
 docs/
 *.kicad_prl
+hardware/kicad/.history/
+
+# Local reference-design research copies. Keep source links/notes tracked instead.
+hardware/datasheets/reference-designs/*.pdf
+hardware/datasheets/reference-designs/*.txt
+hardware/datasheets/reference-designs/*.png
+hardware/datasheets/reference-designs/*.jpg
+hardware/datasheets/reference-designs/*.jpeg
+hardware/datasheets/reference-designs/*.webp
+hardware/datasheets/reference-designs/*.zip
+hardware/datasheets/reference-designs/*.7z
+hardware/datasheets/reference-designs/*.tar
+hardware/datasheets/reference-designs/*.tar.gz
+hardware/datasheets/reference-designs/*.tmp
+hardware/datasheets/reference-designs/*~
+!hardware/datasheets/reference-designs/README.md
